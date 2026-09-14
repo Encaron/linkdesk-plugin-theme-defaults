@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- theme-defaults 身份图「出厂双态」：钢蓝亮半 + 墨蓝暗半，沿主对角线切开，缝上一枚 LinkDesk 蓝点
+       意象 = 出厂 Light/Dark 两套配方共用一枚身份图；颜色取壳默认蓝 #0078D4 家族（亮半偏冷白、暗半偏墨蓝）
+       家族：40×40 圆角方载体 + 135° 双档渐变 ×2 + 白玻璃罩 + 发丝光边（Type-2 彩色身份图）
+       注：白玻璃罩压在白亮半上看不见——亮半压到 #EAF1F9 而不是纯白，罩子才留得住（家族暗号不破） -->
+  <defs>
+    <!-- 亮半压到钢蓝而不是近白：亮色主题的侧栏本身是近白，近白的半张会糊在底上 -->
+    <linearGradient id="dfLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DCE7F3"/>
+      <stop offset="1" stop-color="#B4C9E0"/>
+    </linearGradient>
+    <linearGradient id="dfDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E3846"/>
+      <stop offset="1" stop-color="#111823"/>
+    </linearGradient>
+    <linearGradient id="dfSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+    <clipPath id="dfClip">
+      <rect x="4" y="4" width="40" height="40" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#dfClip)">
+    <!-- 亮半（右上三角） -->
+    <rect x="4" y="4" width="40" height="40" fill="url(#dfLight)"/>
+    <!-- 暗半（左下三角）——沿主对角线 (4,4)-(44,44) 切开 -->
+    <path d="M4 4 L4 44 L44 44 Z" fill="url(#dfDark)"/>
+    <rect x="4" y="4" width="40" height="40" fill="url(#dfSheen)"/>
+    <!-- 缝：一条蓝线（双态的分界，也是品牌色） -->
+    <line x1="4" y1="4" x2="44" y2="44" stroke="#0078D4" stroke-opacity="0.55" stroke-width="1.2"/>
+  </g>
+
+  <rect x="4.5" y="4.5" width="39" height="39" rx="9.5" fill="none" stroke="#8FA6C0" stroke-opacity="0.45"/>
+
+  <!-- 中心：出厂基准点（LinkDesk 蓝 + 白圈，跨缝居中） -->
+  <circle cx="24" cy="24" r="4.3" fill="#0078D4"/>
+  <circle cx="24" cy="24" r="4.3" fill="none" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="1.4"/>
+</svg>
