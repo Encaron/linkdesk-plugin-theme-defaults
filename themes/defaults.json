@@ -45,7 +45,7 @@
       }
     },
     {
-      "id": "dark",
+      "id": "theme-defaults.dark",
       "name": "Dark",
       "colors": {
         "bg-window": "#1E1E1E",
