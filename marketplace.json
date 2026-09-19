@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-17T16:15:38.024Z",
+  "updatedAt": "2026-09-19T12:44:08.207Z",
   "plugins": [
     {
       "id": "theme-defaults",
       "name": "官方主题",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "description": "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的 Light/Dark 兜底配方",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.5/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.6/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.5/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.5/theme-defaults.linkdesk-plugin",
-      "size": 6327,
-      "publishedAt": "2026-09-17T16:15:38.024Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.6/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.6/theme-defaults.linkdesk-plugin",
+      "size": 6437,
+      "publishedAt": "2026-09-19T12:44:08.207Z",
       "versions": [
+        {
+          "version": "1.0.6",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.6/theme-defaults.linkdesk-plugin",
+          "publishedAt": "2026-09-19T12:44:08.207Z",
+          "changelog": "- **重打可复现**：@linkdesk/plugin-sdk 0.1.42 起 zip 目录条目时间戳钉死，同一份源码重打逐字节一致。插件内容零变化（仅 plugin.json 版本号随包更新）。"
+        },
         {
           "version": "1.0.5",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.5/theme-defaults.linkdesk-plugin",
