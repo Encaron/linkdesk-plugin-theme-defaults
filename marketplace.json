@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-30T11:41:07.371Z",
+  "updatedAt": "2026-09-30T11:42:38.535Z",
   "plugins": [
     {
       "id": "theme-defaults",
       "name": "官方主题",
-      "version": "1.0.8",
-      "description": "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的 Light/Dark 兜底配方",
+      "version": "1.0.9",
+      "description": "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的「内置深色／内置浅色」兜底配方",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.8/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.9/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.8/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.8/theme-defaults.linkdesk-plugin",
-      "size": 7888,
-      "publishedAt": "2026-09-30T11:41:07.371Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.9/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.9/theme-defaults.linkdesk-plugin",
+      "size": 8167,
+      "publishedAt": "2026-09-30T11:42:38.535Z",
       "versions": [
+        {
+          "version": "1.0.9",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.9/theme-defaults.linkdesk-plugin",
+          "publishedAt": "2026-09-30T11:42:38.535Z",
+          "changelog": "- **文案跟上 1.0.8 的改名**：本仓 `description` 与 README 里还把壳的内置兜底配方叫 `Light`/`Dark`\n  （1.0.8 已把它们改名为「内置深色」/「内置浅色」）——市场详情页会把刚治好的「Dark/Light 指认不明」\n  从另一个面再讲一遍。本版只动文案：`plugin.json` 说明、README 三处称呼、自有字典 `i18n/en.json`\n  同键改写。**零代码、零数据、零 id 变化。**"
+        },
         {
           "version": "1.0.8",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.8/theme-defaults.linkdesk-plugin",
