@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json",
   "id": "light",
-  "name": "官方主题 Official Themes",
+  "name": "官方主题",
   "type": "light",
   "colorways": [
     {
       "id": "light",
-      "name": "浅色 Light",
+      "name": "浅色",
       "colors": {
         "bg-window": "#FFFFFF",
         "bg-card": "#F5F5F5",
@@ -46,7 +46,7 @@
     },
     {
       "id": "theme-defaults.dark",
-      "name": "深色 Dark",
+      "name": "深色",
       "colors": {
         "bg-window": "#1E1E1E",
         "bg-card": "#2D2D2D",

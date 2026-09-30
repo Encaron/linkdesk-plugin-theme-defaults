@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "theme-defaults",
   "name": "官方主题",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的「内置／内置浅色」兜底配方",
   "author": "官方",
   "icon": "resources/icon.svg",
@@ -10,7 +10,7 @@
     "themes": [
       {
         "id": "light",
-        "label": "官方主题 Official Themes",
+        "label": "官方主题",
         "uiTheme": "light",
         "path": "themes/defaults.json"
       }

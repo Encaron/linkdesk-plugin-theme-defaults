@@ -1,4 +1,6 @@
 {
   "官方主题": "Official Themes",
-  "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的「内置／内置浅色」兜底配方": "Factory dark/light themes — uninstallable; after removal the shell falls back to its own built-in “Built-in / Built-in Light” recipes"
+  "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的「内置／内置浅色」兜底配方": "Factory dark/light themes — uninstallable; after removal the shell falls back to its own built-in “Built-in / Built-in Light” recipes",
+  "浅色": "Light",
+  "深色": "Dark"
 }
