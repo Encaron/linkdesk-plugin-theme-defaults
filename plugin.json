@@ -2,8 +2,8 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "theme-defaults",
   "name": "官方主题",
-  "version": "1.0.8",
-  "description": "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的 Light/Dark 兜底配方",
+  "version": "1.0.9",
+  "description": "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的「内置深色／内置浅色」兜底配方",
   "author": "官方",
   "icon": "resources/icon.svg",
   "contributes": {
