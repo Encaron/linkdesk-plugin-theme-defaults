@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-30T03:48:30.926Z",
+  "updatedAt": "2026-09-30T11:41:07.371Z",
   "plugins": [
     {
       "id": "theme-defaults",
       "name": "官方主题",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "description": "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的 Light/Dark 兜底配方",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.7/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.8/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.7/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.7/theme-defaults.linkdesk-plugin",
-      "size": 7340,
-      "publishedAt": "2026-09-30T03:48:30.926Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.8/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.8/theme-defaults.linkdesk-plugin",
+      "size": 7888,
+      "publishedAt": "2026-09-30T11:41:07.371Z",
       "versions": [
+        {
+          "version": "1.0.8",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.8/theme-defaults.linkdesk-plugin",
+          "publishedAt": "2026-09-30T11:41:07.371Z",
+          "changelog": "- **配方/配色改名（改名不改 id）**：用户实机立案「app.theme 卡片 Dark/Light 指认不明」——本仓的配方\n  名叫 `Light`，而壳内置的兜底配方叫 `Dark`，两张卡并列时被读成同一套的深浅搭子，实际一个来自壳、\n  一个来自本仓（本仓的配方**同时**提供浅色与深色两个配色）。现改：\n  - 配方名 `Light` → **`官方默认 Official Default`**（本仓 = 宿主亮兜底的官方实现者，这条配方承载\n    的是「官方默认外观」，不是某一种明暗）；\n  - 配色名 `Light` → `浅色 Light`、`Dark` → `深色 Dark`（照官方主题仓的「中文 English」惯例）。\n- 🔴 **id 一字未动**：`light`（配方，宿主证照位）与 `theme-defaults.dark`（配色）照旧 ⇒ 用户\n  `settings.json` 里的 `app.theme`/`app.themeColor` 零迁移、零感知。\n- 同笔：壳侧给主题卡片加了**来源行**（「壳自带」/「来自 X 插件」），归属从此进数据（不再靠名字猜）。"
+        },
         {
           "version": "1.0.7",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.7/theme-defaults.linkdesk-plugin",
