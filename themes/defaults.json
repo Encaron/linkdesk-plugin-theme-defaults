@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json",
   "id": "light",
-  "name": "官方默认 Official Default",
+  "name": "官方主题 Official Themes",
   "type": "light",
   "colorways": [
     {
