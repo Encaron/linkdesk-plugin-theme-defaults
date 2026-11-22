@@ -8,7 +8,7 @@
     "color-scheme"
   ],
   "description": "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的「内置／内置浅色」兜底配方",
-  "author": "官方",
+  "author": "Encaron",
   "icon": "resources/icon.svg",
   "contributes": {
     "themes": [
