@@ -79,7 +79,11 @@
         "titlebar-close-hover": "#C42B1C",
         "toggle-knob": "#FFFFFF",
         "hover-overlay": "rgba(255, 255, 255, 0.06)",
-        "cm-timestamp": "#8A8A8A"
+        "cm-timestamp": "#8A8A8A",
+        "surface-reading": "rgba(45, 45, 45, 0.78)",
+        "surface-reading-strong": "rgba(45, 45, 45, 0.88)",
+        "surface-media-scrim": "rgba(30, 30, 30, 0.86)",
+        "surface-ink": "#D4D4D4"
       }
     }
   ]
