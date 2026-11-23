@@ -1,26 +1,36 @@
 {
   "version": "1",
-  "updatedAt": "2026-11-22T16:02:26.982Z",
+  "updatedAt": "2026-11-23T16:42:18.119Z",
   "plugins": [
     {
       "id": "theme-defaults",
       "name": "官方主题",
-      "version": "1.0.15",
+      "version": "1.0.17",
       "description": "出厂暗色/亮色主题——可卸载，卸载后回落到壳内置的「内置／内置浅色」兜底配方",
       "author": {
-        "name": "官方"
+        "name": "Encaron"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.15/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.17/resources/icon.svg",
       "iconSource": "url",
       "category": "themes",
       "categories": [
         "color-scheme"
       ],
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.15/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.15/theme-defaults.linkdesk-plugin",
-      "size": 6805,
-      "publishedAt": "2026-11-22T16:02:26.982Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.17/README.md",
+      "readmeLocales": {
+        "zh": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.17/README.md",
+        "en": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-defaults/v1.0.17/docs/readme/en.md"
+      },
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.17/theme-defaults.linkdesk-plugin",
+      "size": 7270,
+      "publishedAt": "2026-11-23T16:42:18.119Z",
       "versions": [
+        {
+          "version": "1.0.17",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.17/theme-defaults.linkdesk-plugin",
+          "publishedAt": "2026-11-23T16:42:18.119Z",
+          "changelog": "- **i18n 收口**：命令/设置等 manifest 显示文本补齐英文；宿主按插件命名空间解析显示文本（市场/命令面板/菜单不再自己 t() 插件数据）。\n- **README 多语言**：新增 `docs/readme/en.md`，`plugin.json` 声明 `readme.locales`（zh→README.md，en→docs/readme/en.md）；共享图仍住 `resources/`。"
+        },
         {
           "version": "1.0.15",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.15/theme-defaults.linkdesk-plugin",
@@ -48,8 +58,7 @@
         {
           "version": "1.0.11",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-defaults/releases/download/v1.0.11/theme-defaults.linkdesk-plugin",
-          "publishedAt": "2026-09-30T20:47:39.832Z",
-          "changelog": "- **去掉双语音译名（「我不要双语了」）**：字面量只留中文原文（中文界面显示中文），英文界面由壳过 `t()` 显示本仓字典里的英文。作者把译名写进字面量（`\"薄荷苏打 Mint Soda\"`）时，中文界面会中英混排——这条病只能靠「字面量纯中文 ＋ 译名住字典」治。\n- 两只出厂配方的配色名（浅色/深色）与主题名一样纯中文化；译名「Light」/「Dark」与壳内置兜底、语言包里的同名词条取值一致（同键同值 ⇒ 运行时零变化）。\n- **判据随 SDK 下发**：`@linkdesk/plugin-sdk` → **^0.1.64**——`npm run verify` 第 ⑧ 段的判域**扩到主题数据文件里的名字**（`contributes.themes[].label` ＋ 数据文件 `name`/`colorways[].name`，`@linkdesk/plugin-sdk/own-dict-coverage`）：名字同样「谁的仓谁译文」，双语字面量在旧判据里溜得过去、在新判据里当场红。"
+          "publishedAt": "2026-09-30T20:47:39.832Z"
         },
         {
           "version": "1.0.10",
